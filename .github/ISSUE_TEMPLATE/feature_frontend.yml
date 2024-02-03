@@ -1,0 +1,30 @@
+name: Frontend Component
+description: Manage a frontend component for the project
+title: '[feat]'
+labels: ['frontend']
+assignees:
+  - AdamsGeeky
+body:
+  - type: textarea
+    attributes:
+      label: Component Description
+      description: Describe the purpose and functionality of the frontend component.
+      placeholder: Explain what this component is responsible for
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: UI Elements
+      description: List the key UI elements and features associated with this component
+      value: |
+        - Element 1: Description of the element's functionality.
+        - Element 2: Description of the element's functionality.
+        - ...      
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots about the feature request here.
+    validations:
+      required: false
